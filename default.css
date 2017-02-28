@@ -487,8 +487,8 @@
 	
 	#contact .container
 	{
-		width: 1000px;
-		padding: 0px 100px;
+		width: 100%;
+		padding: 0px 10%;
 		color: rgba(255,255,255,0.8);
 	}
 	
