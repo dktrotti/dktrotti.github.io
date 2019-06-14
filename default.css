@@ -201,7 +201,7 @@
 
 	.title
 	{
-		margin-bottom: 3em;
+		margin-bottom: 2em;
 	}
 	
 	.title h2
@@ -216,13 +216,13 @@
 	}
 
 /*********************************************************************************/
-/* Header                                                                        */
+/* Wrapper                                                                       */
 /*********************************************************************************/
 
 	#wrapper
 	{
 		position: relative;
-		padding: 5em 0em 7em 0em;
+		padding: 1em 0em 7em 0em;
 		background: #FFF;
 	}
 
@@ -233,15 +233,22 @@
 	#header-wrapper
 	{
 		position: relative;
-		padding: 5em 0em 7em 0em;
-		background: #111111 url(images/header-bg.jpg) no-repeat center;
+		padding: 3em 0em 4em 0em;
+		background: #222222;
 		background-size: cover;
 	}
 
 	#header
 	{
 		position: relative;
-		padding: 5em 0em;
+		padding: 3em 0em;
+	}
+
+	#header-image
+	{
+		border-radius: 50%;
+		width: 250px;
+		height: 250px;
 	}
 
 /*********************************************************************************/
@@ -337,7 +344,6 @@
 	
 	#banner .button
 	{
-		margin-top: 8em;
 		padding: 1.40em 3em;
 		border-radius: 6px;
 		font-weight: 700;
@@ -443,7 +449,7 @@
 /* Extra                                                                         */
 /*********************************************************************************/
 
-	#skills
+	#wrapper
 	{
 		text-align: center;
 		color: rgba(0,0,0,0.6);
@@ -456,11 +462,12 @@
 		color: rgba(0,0,0,1);
 		font-size: 2em;
 	}
-	
-	#skills .title h2
+
+	#wrapper .title h2
 	{
 		font-weight: bold;
 		color: rgba(0,0,0,0.8);
+		margin-top: 2em;
 	}
 
 	#skills .title .byline
@@ -481,3 +488,49 @@
 		padding-left: 20%;
 	}
 
+	.project
+	{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		float: none;
+		display: inline-block;
+	}
+
+	.project h3
+	{
+		margin-bottom: 0.5em;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.project img
+	{
+		float: left;
+		width: 150px;
+		height: 150px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.project.left
+	{
+		text-align: left;
+	}
+
+	.project.left img
+	{
+		float: left;
+	}
+
+	.project.right
+	{
+		text-align: right;
+	}
+
+	.project.right img
+	{
+		float: right;
+	}
