@@ -523,6 +523,7 @@
 	.project.left img
 	{
 		float: left;
+		margin-right: 20px;
 	}
 
 	.project.right
@@ -533,6 +534,7 @@
 	.project.right img
 	{
 		float: right;
+		margin-left: 20px;
 	}
 
 	#copyright #braindump-copyright
